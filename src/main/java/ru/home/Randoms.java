@@ -15,7 +15,7 @@ public class Randoms implements Iterable<Integer> {
 
     @Override
     public Iterator<Integer> iterator() {
-        return new Iterator<>() {
+        return new Iterator<Integer>() {
             @Override
             public boolean hasNext() {
                 return true;
